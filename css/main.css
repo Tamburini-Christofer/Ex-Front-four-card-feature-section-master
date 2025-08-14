@@ -5,5 +5,59 @@
 }
 
 body{
-    
+    font-size: 14px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 700px;
+    margin:40px auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    background-color: aquamarine;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70%;
+    margin-top: 20px ;
+    background-color: beige;
+}
+
+.col_up{
+    height: 80%;
+    width:30%;
+    background-color: cadetblue;
+}
+
+.col{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(42, 165, 85);
+}
+
+.col_center{
+    height: 100%;
+}
+
+.col_center .card{
+    margin: 20px 0; 
+    height: 40%;
+    width: 100%;
+    background-color: rgb(155, 131, 8);
 }

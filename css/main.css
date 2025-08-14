@@ -6,11 +6,22 @@
 
 body{
     font-size: 14px;
+    line-height: 20px;
     font-family: "Montserrat", "Roboto", "Lato", "Open Sans";
 }
 
+p{
+    margin: 10px 0;
+}
+
+img{
+    padding: 25px 0 0 0;
+    max-width: 20%;
+    margin-left: 80%;
+}
+
 h1{
-    line-height: 30px;
+    line-height: 35px;
     font-weight: normal;
     font-size: 24px;
 }
@@ -19,7 +30,7 @@ h4{
     line-height: 20px;
     font-weight: normal;
     font-size: 13px;
-    margin: 20px 0;
+    margin: 10px 0 30px 0;
 }
 
 .wrapper{
@@ -65,13 +76,10 @@ h4{
 
 .col_center .card{
     margin: 20px 0; 
-    height: 200px;
-    width: 100%;
 }
 
 .card{
-    height: 100%;
-    width: 100%;
+    padding: 25px 35px 35px 25px;
     background-color: white;
     border-radius: 3px;
     box-shadow: 9px 19px 21px -23px hsl(212, 86%, 64%);

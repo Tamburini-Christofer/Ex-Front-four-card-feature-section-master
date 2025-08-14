@@ -46,7 +46,6 @@ h4{
 
     height: 70%;
     margin-top: 20px ;
-    background-color: beige;
 }
 
 .col_up{
@@ -58,16 +57,38 @@ h4{
 .col{
     height: 200px;
     width: 300px;
-    background-color: rgb(42, 165, 85);
 }
 
 .col_center{
-    height: 100%;
+    height: 460px;
 }
 
 .col_center .card{
     margin: 20px 0; 
-    height: 40%;
+    height: 200px;
     width: 100%;
-    background-color: rgb(155, 131, 8);
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 9px 19px 21px -23px hsl(212, 86%, 64%);
+}
+
+.azzurra{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.rossa{
+    border-top:4px solid hsl(0, 78%, 62%);
+}
+
+.gialla{
+    border-top:4px solid hsl(34, 97%, 64%)
+}
+
+.blu{
+    border-top:4px solid hsl(212, 86%, 64%);
 }
